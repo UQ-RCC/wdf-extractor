@@ -1,0 +1,26 @@
+{
+  "@context": "http://clowder.ncsa.illinois.edu/contexts/extractors.jsonld",
+  "name": "uqrcc.wdf",
+  "version": "1.0",
+  "description": "Generated metadata and image preview for renishawWiRE Raman's WDF files",
+  "author": "Hoang Nguyen <uqhngu36@uq.edu.au>",
+  "contributors": [],
+  "contexts": [
+    {
+    }
+  ],
+  "repository": [
+    {
+      "repType": "git",
+      "repUrl": "https://github.com/UQ-RCC/wdf-extractor"
+    }
+  ],
+  "process": {
+    "file": [
+      "*.wdf"
+    ]
+  },
+  "external_services": [],
+  "dependencies": [],
+  "bibtex": []
+}
