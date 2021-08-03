@@ -17,7 +17,7 @@
   ],
   "process": {
     "file": [
-      "*/*.wdf"
+      "wdf"
     ]
   },
   "external_services": [],
