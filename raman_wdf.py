@@ -138,11 +138,7 @@ class RenishawWiRERamanXtractor(Extractor):
             if plot_generated:
                 try:
                     pyclowder.files.upload_preview(connector, host, secret_key, file_id, plot_file, None)
-                    connector.status_update(pyclowder.utils.StatusMessage.processing, resource,
-                                            "Uploaded preview of type %s" % ext)
                     pyclowder.files.upload_thumbnail(connector, host, secret_key, file_id, plot_file)
-                    connector.status_update(pyclowder.utils.StatusMessage.processing, resource,
-                                            "Uploaded thumbnail of type %s" % ext)
                 except Exception as e:
                     logger.error(e)
                 try:
